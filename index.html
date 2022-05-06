@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>FLASHCARD Application</title>
+    <style>
+        .bkgnd {
+              
+              background-color:rgb(190, 211, 148);
+              
+              
+              }
+        .center{
+            text-align:center;
+            color:  #008cff;
+        }
+        .imgcontainer {
+        text-align: center;
+        
+      }
+      
+      img.flashcard {
+        width: 45%;
+        height: 45%;
+        
+      }
+      .wrapper1 {
+        text-align: left;
+       
+           }
+       .wrapper2 {
+        text-align: left;
+       
+       }
+
+
+    .button1 {
+    position: relative;
+    top: 25px;
+    left: 600px;
+    color: blue;
+    }
+    .button2 {
+    position: relative;
+    top: 25px;
+    left: 800px;
+    color: green;
+    
+    }
+    </style>
+        
+</head>
+<body class = "bkgnd">
+    <div class="center">
+    <H1>Welcome to FLASHCARD Application</H1>
+   </div>
+    <div class="imgcontainer">
+    <img src="/static/img/flash1.jpg" alt="Flashcard" class="flashcard">
+    </div>
+    <div class="wrapper1">
+        <a  href="{{ url_for('views.login') }}"><button type="button" class="button1">Login</button></a>
+    
+      
+        <a  href="{{ url_for('views.register') }}"><button type="button" class="button2">SignUp</button></a>
+    </div> 
+        
+    </div>
+</body>
+</html>

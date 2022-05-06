@@ -1,0 +1,11 @@
+flask
+flask-restful
+flask
+flask-SQLAlchemy
+SQLAlchemy
+sqlalchemy
+matplotlib
+flask-sqlalchemy
+flask-login
+requests
+gunicorn
